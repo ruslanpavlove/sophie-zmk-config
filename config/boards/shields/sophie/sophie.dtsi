@@ -70,7 +70,6 @@ RC(3,0) RC(3,1) RC(3,2) RC(3,3) RC(3,4) RC(3,5) RC(4,5) RC(4,6) RC(3,6) RC(3,7) 
 
     zmk_ext_power: ext-power {
         compatible = "zmk,ext-power-generic";
-        label = "EXT_POWER";
         control-gpios = <&pro_micro 10 GPIO_ACTIVE_HIGH>;
     };
 };
